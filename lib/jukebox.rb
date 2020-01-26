@@ -52,7 +52,10 @@ def run (songs)
   input=gets.strip
    if input=="list"
      list (songs)
-   end
-   
-   if 
+   elsif input=="play"
+     play (songs)
+   elsif input=="help"
+      help
+    else
+      
 end
