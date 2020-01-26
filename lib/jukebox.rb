@@ -49,5 +49,10 @@ end
 
 def run (songs)
   puts "Please enter a command:"
-  input=gets.chomp
+  input=gets.strip
+   if input=="list"
+     list (songs)
+   end
+   
+   if 
 end
